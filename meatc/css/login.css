@@ -1,0 +1,239 @@
+﻿/***********************
+ author:Xu Da
+ 
+ e-mail:ddd.1989@yahoo.com.cn
+ 
+ time:2012-3-2
+ 
+ 
+ 
+ ***********************/ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    background-color: #fff;
+    margin: 55px auto 20px;
+    padding: 10px;
+    border: 1px solid #cccfff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.container #left {
+    width: 430px;
+    float: left;
+    font-family: '微软雅黑';
+    border-right: 1px solid #e1e1e1;
+	background:#fff;
+}
+
+.container #left #logo_picture {
+    margin-left: 10px;
+    background-image: url('../image/logo.png');
+    width: 280px;
+    height: 98px;
+}
+
+.container #left #logo_banner {
+    position: relative;
+    background-color: #9fc8f0;
+    height: 14px;
+    width: 409px;
+    margin-top: 15px;
+}
+
+.container #left #logo_banner_text {
+    position: absolute;
+    top: -1px;
+    left: 145px;
+    width: 160px;
+    background-color: white;
+    color: #88a6c4;
+    padding-left: 12px;
+    letter-spacing: 3px;
+}
+
+.container #left #form {
+    width: 300px;
+    height: 360px;
+    /*background-color: blue;*/
+    margin-top: 50px;
+    margin-left: 80px;
+    color: #628fbd;
+}
+
+.container #left #form #username, .container #left #form #password {
+    width: 150px;
+    margin: 20px 0px 20px 20px;
+    height: 14px;
+    color: #264B71;
+}
+
+.container #left #submit {
+    margin-left: 20px;
+    width: 55px;
+    float: left;
+    background-color: #E4EEF5;
+    border: none;
+    color: #628fbd;
+    cursor: pointer;
+    height: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: '微软雅黑';
+}
+
+.container #left #reset {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 55px;
+    height: 20px;
+    float: right;
+    background-color: #E4EEF5;
+    border: none;
+    color: #628fbd;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: '微软雅黑';
+}
+
+.container #left .form_link {
+    display: block;
+    background: url('../image/form_link_bg.png') no-repeat 0px 6px;
+    font-size: 14px;
+    padding-left: 15px;
+    margin: 40px 10px 20px 0;
+    color: #999;
+    width: 100px;
+    float: left;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.container #left a:hover {
+    color: #628fbd;
+}
+
+#form {
+}
+
+.container #left #submit:hover, .container #left #reset:hover {
+    background-color: #71D1FF;
+    color: #333;
+}
+
+.container #left #form_input_lock {
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+.container #right {
+    width: 550px;
+    float: left;
+	background:#fff;
+}
+
+.container #right #news {
+    color: #666;
+    margin: 0px 0px 10px 10px;
+    width: 540px;
+    height: 150px;
+    text-align:left;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.container #right #news .news-line {
+    margin-top: 7px;
+}
+
+.container #right #news .more {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.container #right #news .more a {
+    color: #999;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    line-height: 18px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.container #right #news .more a:hover {
+    /*text-decoration:none;*/
+    color: #9FC8F0;
+}
+
+.container #right #news h3 {
+    font-size: 16px;
+    color: #2F58EF;
+}
+
+.container #right #news span {
+    padding-right: 7px;
+    color: #2f58ef;
+}
+
+.container #right #gallery {
+    margin: 30px 0px 0px 10px;
+    width: 540px;
+    height: 230px;
+}
+
+.bottom {
+    clear: both;
+    width: 1000px;
+    height: 80px;
+    padding: 0 10px;
+    vertical-align: middle;
+    line-height: 20px;
+    margin: 0px auto;
+    background-color: #9EC8F1;
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.bottom div {
+    font-size: 13px;
+    color: #264B71;
+    text-align: center;
+}
+
+/* gallery */
+#ft-buttons-slideshowHolder {
+    margin-top: 10px;
+}
+
+#ft-buttons-slideshowHolder a, #ft-buttons-slideshowHolder a:hover {
+    display:inline-block;
+    color: #fff;
+}
+
+.ft-button-slideshowHolder {
+    background-color: #a3b1c0;
+    margin-right: 2px;
+}
+
+.ft-button-slideshowHolder-active {
+    background-color: #5b758f;
+}

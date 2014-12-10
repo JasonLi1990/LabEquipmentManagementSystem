@@ -1,0 +1,57 @@
+﻿/************************
+author:Xu Da 
+
+e-mail:ddd.1989@yahoo.com.cn\
+
+time:2012-3-3
+
+
+
+*************************/
+
+*{
+	
+	margin:0px;
+	padding:0px;
+}
+body{
+	
+	
+}
+
+#yuding{
+	width:600px;
+	height:400px;
+	background-color:white;
+	font-weight:bold;
+	font-size:13pt;
+	color:#92B9E2;
+}
+
+.container_0{
+	margin:0px 20px 10px 20px;
+	
+	height:25px;
+}
+.container_0 select{
+	width:50px;
+}
+
+.container_1{
+	margin:15px 15px 10px 15px;
+	
+	height:30px;
+
+}
+
+#direction{
+	margin:10px 20px;
+	background-color:white;
+}
+
+#datagrid{
+	margin:10px 20px;
+	height:100px;
+	background-color:#E2ECF6;
+
+}
